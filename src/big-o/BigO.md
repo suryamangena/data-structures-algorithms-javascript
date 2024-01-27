@@ -165,25 +165,25 @@ But we always consider for worst case, consider x = 500 , then O(500^2+3*500+100
 
 ## What Can Cause Time in a Function? Operations (+, -, *, /)
 
-Comparisons (<, >, ==)
-Looping (for, while)
-Outside Function call (function())
+1. Comparisons (<, >, ==)
+2. Looping (for, while)
+3. Outside Function call (function())
 
 ## Rule Book
 
-Rule 1: Always worst Case
-Rule 2: Remove Constants Rule 3:
-• Different inputs should have different variables: O(a + b)
-• A and B arrays nested would be: O(a * b)
-+ for steps in order
-* for nested steps
-Rule 4: Drop Non-dominant terms
+1. Rule 1: Always worst Case
+2. Rule 2: Remove Constants Rule 3:
+3. a. Different inputs should have different variables: O(a + b)
+   b. A and B arrays nested would be: O(a * b)
+4. +(addition) for steps in order
+5. *(multiplication) for nested steps
+6. Rule 4: Drop Non-dominant terms
 
 
 ## What Causes Space Complexity?
-• Variables
-• Data Structures
-• Function Call
-• Allocations
+1. Variables
+2. Data Structures
+3. Function Call
+4. Allocations
 
 
