@@ -4,11 +4,10 @@
 
 1. Linear Time 
 2. Constant Time
-3. 
 
 ## Rules:
 
-1. Worst Case : Always calculate for worst case -> Assume element is last element in an array
+1. **Worst Case** : Always calculate for worst case -> Assume element is last element in an array
 ```
 const findHorse = ((animals)=>{
     for(let animal of animals){
@@ -24,7 +23,7 @@ findHorse(['fish','cat','dog','horse']); // always calculate for worst case, hav
 
 ```
 
-2. Remove Constants: 
+2. **Remove Constants**: 
 ```
 function printFirstItemThenFirstHalfThenSayHi100Times(items) {
     console.log(items[0]); // O(1)
@@ -63,7 +62,7 @@ BigO = O(n/3)+O(n/5) = O(n)
 */
 ```
 
-3. Different terms for inputs:
+3. **Different terms for inputs**:
 ```
 function compressBoxesTwice(boxes1, boxes2){
     for(let box of boxes1){ // O(a)
@@ -120,7 +119,8 @@ Note: If loops follows sequential indentation, then use addition, if loops use n
 */
 
 ``` 
-4. Drop Non Dominants -> Drop Non Dominants have only Dominants in Big O 
+
+4. **Drop Non Dominants** -> Drop Non Dominants have only Dominants in Big O 
 ```
 Eg: 
 function printAllNumbersThenAllPairSums(numbers) {
@@ -160,8 +160,8 @@ But we always consider for worst case, consider x = 500 , then O(500^2+3*500+100
 6. O(n!) Factorial – you are adding a loop for every element
 
 #### Note: 
-1. ** Iterating through half a collection is still O(n) **
-2. ** Two separate collections: O(a * b) **
+1. **Iterating through half a collection is still O(n)**
+2. **Two separate collections: O(a * b)**
 
 ## What Can Cause Time in a Function? Operations (+, -, *, /)
 
