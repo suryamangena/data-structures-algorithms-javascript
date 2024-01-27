@@ -191,8 +191,8 @@ But we always consider for worst case, consider x = 500 , then O(500^2+3*500+100
 ## Space Complexity -> Memory 
 
 1. Heap and Stack 
-  - Heap -> getting used by variables 
-  - stack -> function calls 
+    - Heap -> getting used by variables 
+    - stack -> function calls 
 
 ```
 //#5 Space complexity O(1)
