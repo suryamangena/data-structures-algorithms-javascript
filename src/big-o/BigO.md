@@ -186,4 +186,6 @@ But we always consider for worst case, consider x = 500 , then O(500^2+3*500+100
 3. Function Call
 4. Allocations
 
+## BigO CheatSheet: https://www.bigocheatsheet.com/
+
 
