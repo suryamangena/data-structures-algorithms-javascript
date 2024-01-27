@@ -1,4 +1,4 @@
-# Big O: Used for Scalable 
+# Big O:  Scalable Code (Time & Space Complexity)
 
 ## Types:
 
@@ -188,4 +188,29 @@ But we always consider for worst case, consider x = 500 , then O(500^2+3*500+100
 
 ## BigO CheatSheet: https://www.bigocheatsheet.com/
 
+## Space Complexity -> Memory 
 
+1. Heap and Stack 
+  - Heap -> getting used by variables 
+  - stack -> function calls 
+
+```
+//#5 Space complexity O(1)
+function boooo(n) {
+  for (let i = 0; i < n; i++) { // O(1) => only one variable is there 
+    console.log("booooo");
+  }
+}
+
+// #6 Space complexity O(n)
+function arrayOfHiNTimes(n) { 
+  var hiArray = [];
+  for (let i = 0; i < n; i++) { // O(1) => i variable space
+    hiArray[i] = "hi";  // O(n) => we are creating array and inserting elements based on n input so O(n) -> Result is O(n) as drop non dominants 
+  }
+  return hiArray;
+}
+
+arrayOfHiNTimes(6);
+
+```
